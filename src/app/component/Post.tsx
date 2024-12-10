@@ -23,7 +23,7 @@ function Post() {
     ],
   };
   return (
-    <div className="mt-16 m-4 space-y-3">
+    <div className="mt-16  space-y-3 m-5 md:m-0 lg:">
       <div className="p-5 space-y-3 rounded-lg shadow-sm bg-white  ">
         <div className="flex items-center gap-3">
           <img

@@ -14,8 +14,8 @@ function YouMightLike() {
     ],
   };
   return (
-    <div className="fixed  col-span-2 w-[22%]">
-      <div className=" mt-16 bg-white w-full  p-5 rounded-lg shadow-sm ">
+    <div className="">
+      <div className="w-full mt-16 m-3 bg-white  p-5 rounded-lg shadow-sm ">
         <div className="flex justify-between items-center   border-b pb-3">
           <h1 className="text-sm font-medium text-[#5c5c5c]">You might like</h1>
           <button className="text-blue-500 text-xs font-medium">

@@ -129,7 +129,7 @@ function Sidebar() {
   };
   return (
     <div className="fixed ">
-      <div className="mt-12 w-52 h-screen text-sm   space-y-3 pl-5  bg-white">
+      <div className="mt-12 sm:w-44 md:w-[190px]  lg:w-48  h-screen text-sm   space-y-3 pl-5  bg-white">
         {data.sideBarIcons.map((item, index) => {
           return (
             <div
