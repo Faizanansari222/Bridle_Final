@@ -129,12 +129,12 @@ function Sidebar() {
   };
   return (
     <div className="fixed ">
-      <div className=" w-52 h-screen text-sm   space-y-3 pl-5  bg-white">
+      <div className="mt-12 w-52 h-screen text-sm   space-y-3 pl-5  bg-white">
         {data.sideBarIcons.map((item, index) => {
           return (
             <div
               key={index}
-              className=" gap-3 group flex justify-start hover:text-[#ff4f9b] text-gray-500 hover:bg-gray-100 p-2  items-center cursor-pointer "
+              className=" gap-3 group flex justify-start hover:text-[#ff4f9b] text-gray-500 hover:bg-[#f1f1f1] p-2  items-center cursor-pointer "
             >
               <div className="group-hover:text[#ff4f9b] text-gray-400">{item.icon}</div>
               <div className=" ">{item.title}</div>
